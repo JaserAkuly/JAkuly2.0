@@ -6,15 +6,13 @@
 </head>
 <body>
 
-<div ng-controller="mainCtrl">
-    <div ng-bind="count"></div>
-    <h1>{{title}}</h1>
+<div ui-view></div>
 
-    <p>Welcome to {{title}}</p>
-</div>
-
-<script src="/libs/angular.js"></script>
+<script src="/libs/angular/angular.js"></script>
 <script src="/libs/angular-ui-router/release/angular-ui-router.js"></script>
 <script src="/js/app.js"></script>
+<script src="/js/routes.js"></script>
+<script src="/js/controllers/about.js"></script>
+<script src="/js/controllers/main.js"></script>
 </body>
 </html>
